@@ -1,0 +1,47 @@
+{
+  "name": "mongo-paginate",
+  "description": "Paginate mongoose queries using SIZE+1 to determine if there is a next page.",
+  "keywords": [
+    "pagination",
+    "pager",
+    "page",
+    "pagination",
+    "database",
+    "query",
+    "mongo",
+    "mongoose"
+  ],
+  "tags": [
+    "pagination",
+    "pager",
+    "page",
+    "pagination",
+    "database",
+    "query",
+    "mongo",
+    "mongoose"
+  ],
+  "version": "1.0.0",
+  "author": "Diogo Menezes <diogolmenezes@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogolmenezes/mongo-paginate.git"
+  },
+  "dependencies": {
+    "mongoose": "^4.6.8"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/diogolmenezes/mongo-paginate/issues"
+  },
+  "homepage": "https://github.com/diogolmenezes/mongo-paginate#readme",
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+  }
+}
