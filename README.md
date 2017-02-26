@@ -35,10 +35,10 @@ Result:
 
 ```json
 { 
-  items_per_page: 10,
-  has_next: true,
-  current_page: 1,
-  docs: [ { ... }, { ... } ]
+  "items_per_page": 10,
+  "has_next": true,
+  "current_page": 1,
+  "docs": [ { ... }, { ... } ]
 }
 
 ```
@@ -57,10 +57,10 @@ Result:
 
 ```json
 { 
-  items_per_page: 10,
-  has_next: true,
-  total_pages: 2,
-  total_items: 15,
-  current_page: 1,
-  docs: [ { ... }, { ... } ]
+  "items_per_page": 10,
+  "has_next": true,
+  "total_pages": 2,
+  "total_items": 15,
+  "current_page": 1,
+  "docs": [ { ... }, { ... } ]
 }
