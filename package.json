@@ -1,5 +1,5 @@
 {
-  "name": "mongo-paginate",
+  "name": "mongoose-smartpager",
   "description": "Paginate mongoose queries using SIZE+1 to determine if there is a next page.",
   "keywords": [
     "pagination",
@@ -25,7 +25,7 @@
   "author": "Diogo Menezes <diogolmenezes@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diogolmenezes/mongo-paginate.git"
+    "url": "git+https://github.com/diogolmenezes/mongoose-smartpager.git"
   },
   "dependencies": {
     "mongoose": "^4.6.8"
@@ -36,9 +36,9 @@
   },
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/diogolmenezes/mongo-paginate/issues"
+    "url": "https://github.com/diogolmenezes/mongoose-smartpager/issues"
   },
-  "homepage": "https://github.com/diogolmenezes/mongo-paginate#readme",
+  "homepage": "https://github.com/diogolmenezes/mongoose-smartpager#readme",
   "scripts": {
     "test": ""
   },
