@@ -21,9 +21,14 @@ $ npm install mongo-paginate --save
 ## Examples
 
 
+
+
 ### get_total_of_items = false
 
 ```javascript
+
+ require('mongoose-smartpager');
+
  this.mongo.model('people').find({})
             .paginate(page, 10, false)
             .then(result => {
@@ -46,6 +51,9 @@ Result:
 ### get_total_of_items = false
 
 ```javascript
+
+ require('mongoose-smartpager');
+
  this.mongo.model('people').find({})
             .paginate(page, 10, true)
             .then(result => {
